@@ -21,8 +21,7 @@ const Profile = () => {
       </div>
       <h3 className="font-bold md:text-2xl text-xl">Website Developer</h3>
       <h1 className="font-bold  text-lg md:text-xl text-color-secondary ">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
-        debitis.
+        A person who loves buggy code.
       </h1>
       <Image
         src={Gambar}
