@@ -33,7 +33,7 @@ const Profile = () => {
       <div className="py-2 flex flex-wrap gap-4 ">
         <Link
           href="https://github.com/FaisalAbdulkodir"
-          className="hover:scale-110 transition-all duration-300 ease-in-out p-2 "
+          className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,7 +41,7 @@ const Profile = () => {
         </Link>
         <Link
           href="https://www.linkedin.com/in/faisal-abdullah-b049a5240/"
-          className="hover:scale-110 transition-all duration-300 ease-in-out p-2 "
+          className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -49,7 +49,7 @@ const Profile = () => {
         </Link>
         <Link
           href="https://www.instagram.com/faisalabdllh14120/"
-          className="hover:scale-110 transition-all duration-300 ease-in-out p-2 "
+          className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -57,7 +57,7 @@ const Profile = () => {
         </Link>
         <Link
           href="https://www.facebook.com/faisal.abdullah.18400700?locale=id_ID"
-          className="hover:scale-110 transition-all duration-300 ease-in-out p-2 "
+          className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
         >
