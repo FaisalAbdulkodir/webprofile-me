@@ -5,19 +5,8 @@ import Buku from "@/assets/buku.png";
 import Sag from "@/assets/sag.png";
 import Emosi from "@/assets/emo.jpg";
 import React from "react";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Button,
-  useDisclosure,
-} from "@nextui-org/react";
 
 const Projects = () => {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
   return (
     <div className="pt-40">
       <h3 className="text-center text-2xl md:text-4xl font-bold text-color-accent ">
@@ -25,10 +14,7 @@ const Projects = () => {
       </h3>
       <div className="flex pt-20 justify-center">
         <div className="grid md:grid-cols-3 grid-cols-1 gap-4 px-4 text-center">
-          <div
-            onClick={onOpen}
-            className="cursor-pointer w-72 h-96 bg-color-accent mx-auto overflow-hidden shadow-xl flex flex-col border-4 border-color-accent hover:scale-105 transition-all duration-300 ease-in-out"
-          >
+          <div className="cursor-pointer w-72 h-96 bg-color-accent mx-auto overflow-hidden shadow-xl flex flex-col border-4 border-color-accent hover:scale-105 transition-all duration-300 ease-in-out">
             <div className="h-4/5 w-full flex-1 bg-color-primary">
               <Image
                 src={Buku}
@@ -44,54 +30,7 @@ const Projects = () => {
               </h1>
             </div>
           </div>
-          <Modal
-            backdrop="opaque"
-            isOpen={isOpen}
-            onOpenChange={onOpenChange}
-            classNames={{
-              backdrop:
-                "bg-gradient-to-t from-zinc-900 to-zinc-900/10 backdrop-opacity-20",
-            }}
-          >
-            <ModalContent>
-              {(onClose) => (
-                <>
-                  <ModalHeader className="flex flex-col gap-1">
-                    Modal Title
-                  </ModalHeader>
-                  <ModalBody>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nullam pulvinar risus non risus hendrerit venenatis.
-                      Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                    </p>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nullam pulvinar risus non risus hendrerit venenatis.
-                      Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                    </p>
-                    <p>
-                      Magna exercitation reprehenderit magna aute tempor
-                      cupidatat consequat elit dolor adipisicing. Mollit dolor
-                      eiusmod sunt ex incididunt cillum quis. Velit duis sit
-                      officia eiusmod Lorem aliqua enim laboris do dolor
-                      eiusmod. Et mollit incididunt nisi consectetur esse
-                      laborum eiusmod pariatur proident Lorem eiusmod et. Culpa
-                      deserunt nostrud ad veniam.
-                    </p>
-                  </ModalBody>
-                  <ModalFooter>
-                    <Button color="danger" variant="light" onPress={onClose}>
-                      Close
-                    </Button>
-                    <Button color="primary" onPress={onClose}>
-                      Action
-                    </Button>
-                  </ModalFooter>
-                </>
-              )}
-            </ModalContent>
-          </Modal>
+
           <div className="cursor-pointer w-72 h-96 bg-color-accent mx-auto overflow-hidden shadow-xl flex flex-col border-4 border-color-accent hover:scale-105 transition-all duration-300 ease-in-out">
             <div className="h-4/5 w-full flex-1 bg-color-primary">
               <Image
