@@ -7,6 +7,7 @@ import LogoPython from "@/assets/icons8-python.svg";
 import LogoNextJs from "@/assets/icons8-nextjs.svg";
 import LogoReactJs from "@/assets/icons8-react.svg";
 import LogoTailwind from "@/assets/icons8-tailwind-css.svg";
+import LogoPHP from "@/assets/php.svg";
 
 const Skills = () => {
   return (
@@ -107,6 +108,20 @@ const Skills = () => {
         >
           <Image
             src={LogoTailwind}
+            alt="..."
+            width={48}
+            height={48}
+            className="w-full"
+          />
+        </a>
+        <a
+          href="https://www.w3schools.com/php/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-36 w-36 md:h-42 justify-center items-center"
+        >
+          <Image
+            src={LogoPHP}
             alt="..."
             width={48}
             height={48}
