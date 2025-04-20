@@ -48,7 +48,7 @@ const Profile = () => {
           <LinkedinLogo size={32} />
         </Link>
         <Link
-          href="https://www.instagram.com/faisalabdllh14120/"
+          href="https://www.instagram.com/faisalabdoel/"
           className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
