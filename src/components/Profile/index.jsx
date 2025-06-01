@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Gambar from "@/assets/img.png";
+import Mecakan from "@/assets/badut1.jpg";
 import Link from "next/link";
 import {
   GithubLogo,
@@ -21,10 +22,11 @@ const Profile = () => {
       </div>
       <h3 className="font-bold md:text-2xl text-xl">Website Developer</h3>
       <h1 className="font-bold  text-lg md:text-xl text-color-secondary ">
-        A person who loves buggy code.
+        {/* A person who loves buggy code. */}A person who loves fishing and
+        sleeping.
       </h1>
       <Image
-        src={Gambar}
+        src={Mecakan}
         alt="..."
         width={250}
         height={250}
