@@ -9,6 +9,7 @@ import {
   LinkedinLogo,
   InstagramLogo,
   FacebookLogo,
+  YoutubeLogo,
 } from "@phosphor-icons/react";
 
 const Profile = () => {
@@ -58,13 +59,21 @@ const Profile = () => {
           <InstagramLogo size={32} />
         </Link>
         <Link
+          href="https://www.youtube.com/@prabeda7345"
+          className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <YoutubeLogo size={32} />
+        </Link>
+        {/* <Link
           href="https://www.facebook.com/faisal.abdullah.18400700?locale=id_ID"
           className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
         >
           <FacebookLogo size={32} />
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
