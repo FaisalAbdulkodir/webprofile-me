@@ -59,7 +59,7 @@ const Profile = () => {
           <InstagramLogo size={32} />
         </Link>
         <Link
-          href="https://www.youtube.com/@prabeda7345"
+          href="https://youtube.com/@frostbite-ib4up?si=-OiWaKulSJE3Kb75"
           className="hover:scale-110 hover:bg-color-accent transition-all duration-300 ease-in-out p-2 "
           target="_blank"
           rel="noopener noreferrer"
