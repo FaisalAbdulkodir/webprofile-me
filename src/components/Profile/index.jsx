@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Gambar from "@/assets/img.png";
 import Mecakan from "@/assets/badut1.jpg";
+import Gambar_anyar from "@/assets/a.jpeg";
 import Link from "next/link";
 import {
   GithubLogo,
@@ -27,7 +28,7 @@ const Profile = () => {
         sleeping.
       </h1>
       <Image
-        src={Mecakan}
+        src={Gambar_anyar}
         alt="..."
         width={250}
         height={250}
