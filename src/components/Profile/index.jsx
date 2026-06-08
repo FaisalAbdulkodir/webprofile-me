@@ -30,9 +30,9 @@ const Profile = () => {
       <Image
         src={Gambar_anyar}
         alt="..."
-        width={250}
-        height={250}
-        className="mt-4 bg-color-accent object-cover"
+        width={300}
+        height={300}
+        className="mt-4 bg-color-accent object-cover object-center hover:scale-120 transition-transform duration-300 ease-in-out"
       />
       <div className="py-2 flex flex-wrap gap-4 ">
         <Link
